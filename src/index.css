@@ -1,13 +1,133 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App {
+  text-align: center;
+  background-image: url("./images/dayimg.png");
+  background-position:bottom ;
+  background-size:cover ;
+  transition:0.5s ease-out;
+  height:80%;
+  width:50%;
+ 
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  
+}
+body{
+  font-family:'montseratt',sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App .night{
+  background-image:url("./images/nightimg1.png");
 }
+.App.warm{
+  background-image:url("./images/warmimg.png") ;
+}
+main{
+  min-height:100vh;
+  background-image: linear-gradient(to bottom,rgba(104, 101, 101, 0.2),rgba(203, 195, 195, 0.75));
+  padding:25px;
+  
+}
+.search-box{
+  width:100%;
+  margin : 0 auto 75px;
+  
+}
+ .search-box .search-bar{
+  display: block;
+  width:100%;
+  padding:15px;
+  background-color: rgb(168, 175, 175) ;
+  border-radius: 0px 0px 16px 16px;
+  margin-top: -25px; 
+  
+  appearance: none;
+  background: none;
+  border:none;
+  outline: none;
+  box-shadow: 0px 4px rgba( 0, 0, 0,0.2);
+  font-size: 20px;
+  transition: 0.4s ease;
+}
+.search-box .search-bar:focus{
+ background-color: rgba(203, 195, 195, 0.75); 
+}
+.Location-box .Location{
+
+  display:block;
+  background-color:rgba(245, 222, 222, 0.75);
+  border-radius:10px 10px 10px 10px;
+  font-size:42px;
+  text-align: center;
+  color:rgb(159, 175, 175);
+  width: 200px;
+  font-weight: 100;
+  margin:auto;
+  text-shadow: 3px 3px rgba(194, 173, 173, 0.2);
+  padding:2px;
+}
+ .Location-box .date{
+  color:#FFF;
+  font-size:20px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgba(50,50,70,0.5);
+}
+.weather-box{
+  
+  text-align:center;
+  }
+.weather-box .temp{
+  position: relative;
+  display:inline-block;
+  margin:30px auto;
+  background-color: rgba(255 ,255,255,0.2);
+  border-radius:16px;
+  color:#FFF;
+
+  font-size: 92px;
+  font-weight: 600;
+  text-shadow: 3px 6px rgba( 0, 0, 0,0.2);
+  text-align: center;
+}
+.weather-box .weather{
+  color:#FFF;
+  font-size: 35px;
+  font-weight: 500;
+  text-shadow:3px 3px rgba(50,50,70,0.5);
+}
+.wind-box .wind{
+  height: 60px;
+  margin :auto;
+  color:#FFF;
+  font-size: 35px;
+  font-weight: 300;
+}
+/* .search-box .button {
+  appearance: none;
+  background: none;
+  border:1px;
+  outline: none;
+  text-shadow: 3px 3px rgba(194, 173, 173, 0.2);
+
+
+ 
+} */
+.small-card{
+  display: flex;
+  flex-direction:column ;
+  color:#efdfdf;
+  font-size: 22px;
+  font-weight: 200;
+
+
+
+}
+
+
+
+
+
