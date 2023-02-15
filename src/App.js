@@ -1,8 +1,5 @@
-// import {Route,Routes} from "react-router-dom";
 import React, {useState,useEffect} from 'react';
 import "./index.css";
-// import moreDetails from"./pages/WeatherDisplay";
-// import Nav from "./components/nav"
 
 const api ={
    key: "d6f17b38782289549fb2d753c911708c",
@@ -71,16 +68,11 @@ return (
                 <div>Visibility:{weather.visibility}km</div>
 
               </div>
-              {/* <div className="App">
-                <Nav/>
-                 <Routes>
-                 <Route path = "/" element={<moreDetails/>}/>
-                 </Routes> */}
+             
               </div>
             </div>
           </div>
         
-        // )
      ) : ("")}
      
     </main>
