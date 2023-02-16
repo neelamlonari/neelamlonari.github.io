@@ -4,19 +4,21 @@
   background-position:bottom ;
   background-size:cover ;
   transition:0.5s ease-out;
-  height:80%;
-  width:50%;
+  height:100%;
+  width:100%;
  
 }
 *{
   margin:0;
   padding:0;
   box-sizing:border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   
 }
 body{
-  font-family:'montseratt',sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
 .App .night{
   background-image:url("./images/nightimg1.png");
@@ -28,16 +30,26 @@ main{
   min-height:100vh;
   background-image: linear-gradient(to bottom,rgba(104, 101, 101, 0.2),rgba(203, 195, 195, 0.75));
   padding:25px;
+ 
   
 }
+
 .search-box{
   width:100%;
   margin : 0 auto 75px;
-  
+  display: flex;
+   align-items: center; 
+  flex-direction: row;
+  padding: 1rem;
+  justify-content: space-between;
+
+
+
+
 }
  .search-box .search-bar  {
   display: block;
-  width:100%;
+  width:90%;
   padding:15px;
   background-color: rgb(168, 175, 175) ;
   border-radius: 0px 0px 16px 16px;
@@ -54,14 +66,29 @@ main{
 .search-box .search-bar:focus{
  background-color: rgba(203, 195, 195, 0.75); 
 }
+ .search-box>button{
+  padding: 5px 20px;
+  border-radius: 00.4rem;
+  background-color: rgba(203, 195, 195, 0.75); 
+  font-size: 25px;
+  text-shadow: 3px 3px rgba(194, 173, 173, 0.2);
+  color: aqua;
+} 
+ .Location-box{
+  height: 40%;
+  width:70%;
+   background-color: black;
+   text-align: center;
+   margin: auto;
+} 
 .Location-box .Location{
 
   display:block;
-  background-color:rgba(245, 222, 222, 0.75);
+   background-color:rgba(245, 222, 222, 0.399); 
   border-radius:10px 10px 10px 10px;
   font-size:42px;
   text-align: center;
-  color:rgb(159, 175, 175);
+  color:rgb(58, 191, 191);
   width: 200px;
   font-weight: 100;
   margin:auto;
@@ -75,7 +102,7 @@ main{
   font-style: italic;
   text-align: center;
   text-shadow: 2px 2px rgba(50,50,70,0.5);
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .weather-box{
   
@@ -108,27 +135,26 @@ main{
   font-size: 35px;
   font-weight: 300;
 }
- .search-box ,button {
-  appearance: none;
-  background: none;
-  text-shadow: 3px 3px rgba(194, 173, 173, 0.2);
-  color: aqua;
-  margin-right: 80%;
-  border-radius:4px;
-}
-button:focus{
-  background-color: rgba(203, 195, 195, 0.75); 
- } 
+
 .small-card{
   display: flex;
   flex-direction:column ;
   color:#efdfdf;
   font-size: 22px;
   font-weight: 200;
-
-
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between ;
 
 }
+/* .nav{
+  background-color: black;
+  color:white;
+  font-size: 1em;
+  display: flex;
+  justify-content: space-between;
+} */
 
 
 
