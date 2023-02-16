@@ -4,7 +4,7 @@ export default function Nav (props){
     return(
         <div className="nav">
             <Link to ="/">
-                <div>More Details</div>
+                <div>Weather</div>
             </Link>
         </div>
     );

@@ -38,11 +38,8 @@ export default function WeatherDisplay(){
                           placeholder="search..."
                           onChange = {e => setQuery(e.target.value)}
                           value = {query}
-        
-                          />
-                         
-                          <button onClick={search}>search</button> 
-                         
+                           />
+                    <button onClick={search}>search</button> 
                  </div>
               
                 
@@ -64,10 +61,9 @@ export default function WeatherDisplay(){
                        <div className='small-card'>
                          <div>Humidity:{weather.main.humidity}%</div>
                          <div>Clouds :{weather.clouds.all}%</div>
-                        
+                         <div> Wind:{Math.round(weather.wind.speed)} %</div>
                          <div>Visibility:{weather.visibility}km</div>
-        
-                       </div>
+                        </div>
                      
                        </div>
                      </div>
