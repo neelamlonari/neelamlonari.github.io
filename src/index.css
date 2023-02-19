@@ -42,10 +42,6 @@ main{
   flex-direction: row;
   padding: 1rem;
   justify-content: space-around;
-
-
-
-
 }
  .search-box .search-bar  {
   display: block;
@@ -75,8 +71,8 @@ main{
   color: aqua;
 } 
  .Location-box{
-  height: 40%;
-  width:70%;
+  height: 50%;
+  width:100%;
    background-color: black;
    text-align: center;
    margin: auto;
@@ -94,6 +90,7 @@ main{
   margin:auto;
   text-shadow: 3px 3px rgba(194, 173, 173, 0.2);
   padding:2px;
+  padding-top: 2px;
 }
  .Location-box .date{
   color:#FFF;
@@ -128,33 +125,41 @@ main{
   text-shadow:3px 3px rgba(50,50,70,0.5);
   margin-top: -25px;
 }
-/* .wind-box .wind{
-  height: 60px;
-  margin :auto;
-  color:#FFF;
-  font-size: 35px;
-  font-weight: 300;
-} */
+
 
 .small-card{
   display: flex;
-  flex-direction:column ;
   color:#efdfdf;
   font-size: 22px;
   font-weight: 200;
   background-color: black;
-  display: flex;
   flex-direction: row;
+  
   justify-content:space-between ;
 
 }
-/* .nav{
+ .nav{
   background-color: black;
   color:white;
   font-size: 1em;
   display: flex;
   justify-content: space-between;
-} */
+} 
+.raw{
+  width:70%;
+  height:30%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+}
+.left-side{
+  margin-left: 30%;
+}
+.right-side{
+  margin-right:30%;
+}
+
 
 
 
