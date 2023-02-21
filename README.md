@@ -2,7 +2,7 @@
 
 Access my site at link below 
 
-# <a herf="https://luxury-mochi-aaadb5.netlify.app/"> Neelam's Weather App </a>
+This site was built using [Neelam's Weather App](https://luxury-mochi-aaadb5.netlify.app/).
 
 # Description:
 
