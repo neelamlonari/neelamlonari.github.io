@@ -1,5 +1,9 @@
-# Description:
+# Title : Weather Application
 
+Access my site at link below
+https://luxury-mochi-aaadb5.netlify.app/
+
+# Description:
 
 This project is a working copy of "weather App" which can be used to check weather of city.
 
@@ -22,7 +26,7 @@ Launch the application from Visual Code
 
 Site can be accessible using below URL on local Machine  
 
-http://localhost:3000/weather
+https://luxury-mochi-aaadb5.netlify.app/
 
 #Prerequisite  
 
