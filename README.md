@@ -18,6 +18,13 @@ This application is developed using React JS.
 React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies
 It is using various feature of the react such as"Components, UseState & useEffect hook "etc...
 
+# Screenshots 
+<p>
+<img src='./screenshot-libs/First_Version.png' width='200px' height='150px'>
+<img src='./screenshot-libs/Landing_Page.png' width='200px' height='150px'>
+<img src='./screenshot-libs/Another_City.png' width='200px' height='150px'>
+</p>
+
 #How to use  
 
 Clone the repository in Visual Code  
