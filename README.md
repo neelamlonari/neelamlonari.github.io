@@ -25,6 +25,15 @@ It is using various feature of the react such as"Components, UseState & useEffec
 <img src='./screenshot-libs/Another_City.png' width='200px' height='150px'>
 </p>
 
+
+# Technologies 
+### HTML 
+### CSS 
+### JAVASCRIPT 
+### REACTJS 
+### REACT 
+### API Integration
+
 #How to use  
 
 Clone the repository in Visual Code  
